@@ -1,9 +1,10 @@
-package com.yoinliu.lintcode;
+package com.yoinliu.algorithm.lintcode;
 
 /**
- * 计算a和b的值，使用位运算
+ * A + B 的问题
+ * 计算a加b的值，使用位运算
  */
-public class BitAddition01 {
+public class P1BitAddition {
 
     public static int add(int a, int b) {
         int temp;
@@ -13,9 +14,5 @@ public class BitAddition01 {
             a = temp;
         }
         return a;
-    }
-
-    public static void main(String[] args) {
-        System.out.println(add(3,5));
     }
 }
